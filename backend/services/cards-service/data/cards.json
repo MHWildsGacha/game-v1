@@ -3,7 +3,8 @@
       "card_number": 1,
       "card_id": 1,
       "name": "Rathalos",
-      "type": "Monster",
+      "card-type": "Monster",
+      "monster-type": "Flying-Wyvern",
       "rarity": "SSR",
       "stats": {
         "atk": 120,
@@ -18,8 +19,8 @@
       "card_number": 2,
       "card_id": 2,
       "name": "Aiden",
-      "type": "Human",
-      "rarity": "SSR",
+      "card-type": "Human",
+      "rarity": "normal",
       "stats": {
         "atk": 100,
         "agi": 110,
@@ -33,8 +34,8 @@
       "card_number": 3,
       "card_id": 3,
       "name": "Palico - Mew",
-      "type": "Palico",
-      "rarity": "SSR",
+      "card-type": "Palico",
+      "rarity": "normal",
       "stats": {
         "atk": 80,
         "agi": 120,
@@ -48,7 +49,7 @@
       "card_number": 4,
       "card_id": 4,
       "name": "Tigrex",
-      "type": "Monster",
+      "card-type": "Monster",
       "rarity": "SSR",
       "stats": {
         "atk": 130,
@@ -63,8 +64,8 @@
       "card_number": 5,
       "card_id": 5,
       "name": "Lina",
-      "type": "Human",
-      "rarity": "SSR",
+      "card-type": "Human",
+      "rarity": "normal",
       "stats": {
         "atk": 90,
         "agi": 115,
@@ -78,8 +79,8 @@
       "card_number": 6,
       "card_id": 6,
       "name": "Palico - Purrfect",
-      "type": "Palico",
-      "rarity": "SSR",
+      "card-type": "Palico",
+      "rarity": "normal",
       "stats": {
         "atk": 70,
         "agi": 125,
