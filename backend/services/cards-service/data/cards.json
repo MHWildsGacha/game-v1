@@ -1,94 +1,108 @@
 [
-    {
-      "card_number": 1,
-      "card_id": 1,
-      "name": "Rathalos",
-      "card-type": "Monster",
-      "monster-type": "Flying-Wyvern",
-      "rarity": "SSR",
-      "stats": {
-        "atk": 120,
-        "agi": 90,
-        "def": 80,
-        "hp": 200,
-        "crit_rate": 15
-      },
-      "description": "King of the skies, fierce and deadly."
+  {
+    "card_number": 1,
+    "card_id": 1,
+    "name": "Rathalos",
+    "card-type": "Monster",
+    "monster-type": "Flying-Wyvern",
+    "rarity": "SSR",
+    "stats": {
+      "atk": 120,
+      "agi": 90,
+      "def": 80,
+      "hp": 200,
+      "crit_rate": 15
     },
-    {
-      "card_number": 2,
-      "card_id": 2,
-      "name": "Aiden",
-      "card-type": "Human",
-      "rarity": "normal",
-      "stats": {
-        "atk": 100,
-        "agi": 110,
-        "def": 70,
-        "hp": 180,
-        "crit_rate": 10
-      },
-      "description": "A skilled hunter with unmatched agility."
+    "description": "King of the skies, fierce and deadly."
+  },
+  {
+    "card_number": 2,
+    "card_id": 2,
+    "name": "Aiden",
+    "card-type": "Human",
+    "rarity": "SR",
+    "stats": {
+      "atk": 100,
+      "agi": 110,
+      "def": 70,
+      "hp": 180,
+      "crit_rate": 10
     },
-    {
-      "card_number": 3,
-      "card_id": 3,
-      "name": "Palico - Mew",
-      "card-type": "Palico",
-      "rarity": "normal",
-      "stats": {
-        "atk": 80,
-        "agi": 120,
-        "def": 60,
-        "hp": 150,
-        "crit_rate": 12
-      },
-      "description": "A playful but deadly companion."
+    "description": "A skilled hunter with unmatched agility."
+  },
+  {
+    "card_number": 3,
+    "card_id": 3,
+    "name": "Palico - Mew",
+    "card-type": "Palico",
+    "rarity": "S",
+    "stats": {
+      "atk": 80,
+      "agi": 120,
+      "def": 60,
+      "hp": 150,
+      "crit_rate": 12
     },
-    {
-      "card_number": 4,
-      "card_id": 4,
-      "name": "Tigrex",
-      "card-type": "Monster",
-      "rarity": "SSR",
-      "stats": {
-        "atk": 130,
-        "agi": 85,
-        "def": 75,
-        "hp": 210,
-        "crit_rate": 18
-      },
-      "description": "A ferocious beast known for its raw power."
+    "description": "A playful but deadly companion."
+  },
+  {
+    "card_number": 4,
+    "card_id": 4,
+    "name": "Tigrex",
+    "card-type": "Monster",
+    "rarity": "SSR",
+    "stats": {
+      "atk": 130,
+      "agi": 85,
+      "def": 75,
+      "hp": 210,
+      "crit_rate": 18
     },
-    {
-      "card_number": 5,
-      "card_id": 5,
-      "name": "Lina",
-      "card-type": "Human",
-      "rarity": "normal",
-      "stats": {
-        "atk": 90,
-        "agi": 115,
-        "def": 65,
-        "hp": 170,
-        "crit_rate": 8
-      },
-      "description": "A mage with the ability to control fire."
+    "description": "A ferocious beast known for its raw power."
+  },
+  {
+    "card_number": 5,
+    "card_id": 5,
+    "name": "Lina",
+    "card-type": "Human",
+    "rarity": "SR",
+    "stats": {
+      "atk": 90,
+      "agi": 115,
+      "def": 65,
+      "hp": 170,
+      "crit_rate": 8
     },
-    {
-      "card_number": 6,
-      "card_id": 6,
-      "name": "Palico - Purrfect",
-      "card-type": "Palico",
-      "rarity": "normal",
-      "stats": {
-        "atk": 70,
-        "agi": 125,
-        "def": 50,
-        "hp": 140,
-        "crit_rate": 10
-      },
-      "description": "A speedy and clever Palico that excels in support."
-    }
-  ]
-  
+    "description": "A mage with the ability to control fire."
+  },
+  {
+    "card_number": 6,
+    "card_id": 6,
+    "name": "Palico - Purrfect",
+    "card-type": "Palico",
+    "rarity": "S",
+    "stats": {
+      "atk": 70,
+      "agi": 125,
+      "def": 50,
+      "hp": 140,
+      "crit_rate": 10
+    },
+    "description": "A speedy and clever Palico that excels in support."
+  },
+  {
+    "card_number": 7,
+    "card_id": 7,
+    "name": "Hunter's Knife",
+    "card-type": "Equipment",
+    "rarity": "N",
+    "stats": {
+      "atk": 10,
+      "agi": 5,
+      "def": 0,
+      "hp": 0,
+      "crit_rate": 2
+    },
+    "description": "A basic weapon for new hunters."
+  }
+]

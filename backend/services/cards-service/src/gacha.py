@@ -15,10 +15,7 @@ def gacha_cards(cards):
         print("SSR!")
     else:  
         prize = random.choice(normal_cards)
-        print("Normal :( ")
-
-    print(f"Sorteado: {prize['name']}")
-    print(f"Raridade: {prize['rarity']}")
+        print(f"rodou um rare {prize['rarity']} "),
 
 def main():
     cards = load_cards()

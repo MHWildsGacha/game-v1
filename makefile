@@ -1,5 +1,7 @@
+SHELL := /bin/bash
+
 install:
-	source venv/bin/activate && pip install -r requirements.txt
+	source bin/activate && pip install -r requirements.txt
 
 run: install
-	uvicorn src.api:app --reload
+	uvicorn backend.services.cards-service.src.api:app --reload
