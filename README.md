@@ -28,3 +28,10 @@ make run
 ```bash
 docker compose up --build
 ```
+
+#### Todos
+
+- [x] Sortear o gacha
+- [ ] Interface visual
+- [ ] Sistema de usuários
+- [ ] Banco de dados

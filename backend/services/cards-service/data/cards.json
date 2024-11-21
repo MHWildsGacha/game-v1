@@ -1,7 +1,7 @@
 [
   {
     "card_number": 1,
-    "card_id": 1,
+    "id": 1,
     "name": "Rathalos",
     "card-type": "Monster",
     "monster-type": "Flying-Wyvern",
@@ -17,7 +17,7 @@
   },
   {
     "card_number": 2,
-    "card_id": 2,
+    "id": 2,
     "name": "Aiden",
     "card-type": "Human",
     "rarity": "SR",
@@ -32,7 +32,7 @@
   },
   {
     "card_number": 3,
-    "card_id": 3,
+    "id": 3,
     "name": "Palico - Mew",
     "card-type": "Palico",
     "rarity": "S",
@@ -47,7 +47,7 @@
   },
   {
     "card_number": 4,
-    "card_id": 4,
+    "id": 4,
     "name": "Tigrex",
     "card-type": "Monster",
     "rarity": "SSR",
@@ -62,7 +62,7 @@
   },
   {
     "card_number": 5,
-    "card_id": 5,
+    "id": 5,
     "name": "Lina",
     "card-type": "Human",
     "rarity": "SR",
@@ -77,7 +77,7 @@
   },
   {
     "card_number": 6,
-    "card_id": 6,
+    "id": 6,
     "name": "Palico - Purrfect",
     "card-type": "Palico",
     "rarity": "S",
@@ -92,7 +92,7 @@
   },
   {
     "card_number": 7,
-    "card_id": 7,
+    "id": 7,
     "name": "Hunter's Knife",
     "card-type": "Equipment",
     "rarity": "N",
