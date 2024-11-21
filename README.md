@@ -45,7 +45,6 @@ Para listar todas as cartas:
 
         Resposta:
 
-            ```json
             [{
                 "card_number": 1,
                 "id": 1,
@@ -55,20 +54,18 @@ Para listar todas as cartas:
             "id": 2,
             "name": "Aiden"}
             ]
-            ```
+
 
 Para listar carta especifica: 
     
     localhost:8000/cards/{id} #1 por exemplo
     Retorno:
-
-        ```json
             [{
                 "card_number": 1,
                 "id": 1
                 ...
             }]
-        ```
+
 
 Se a carta não existir:
 
