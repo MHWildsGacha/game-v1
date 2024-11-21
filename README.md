@@ -66,6 +66,18 @@ Para listar carta especifica:
                 ...
             }]
 
+Para listar a carta sorteada:
+
+    localhost:8000/cards/gacha
+
+    Retorno:
+        [{
+            "card_number": 4,
+            "card_id": 4,
+            "name": "Tigrex",
+            "card-type": "Monster",
+            "rarity": "SSR",}]
+
 
 Se a carta não existir:
 

@@ -1,5 +1,6 @@
 import json
 from fastapi import FastAPI, HTTPException
+from gacha import load_cards, gacha_cards
 
 app = FastAPI()
 
@@ -21,6 +22,12 @@ def get_card_by_id(card_id: int):
         if card["id"] == card_id:
             return card
     raise HTTPException(status_code=404, detail="Card not found")
+
+@app.get("/gacha")
+def roll_gacha():
+    cards = load_cards()
+    prize_card = gacha_cards(cards)
+    return prize_card
 
 @app.get("/")
 def main():
