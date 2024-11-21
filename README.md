@@ -35,3 +35,46 @@ docker compose up --build
 - [ ] Interface visual
 - [ ] Sistema de usuários
 - [ ] Banco de dados
+
+
+#### Exemplos de requisições
+
+Para listar todas as cartas:
+
+    localhost:8000/cards
+
+        Resposta:
+
+            ```json
+            [{
+                "card_number": 1,
+                "id": 1,
+                "name": "Rathalos"
+            },
+            {"card_number": 2,
+            "id": 2,
+            "name": "Aiden"}
+            ]
+            ```
+
+Para listar carta especifica: 
+    
+    localhost:8000/cards/{id} #1 por exemplo
+    Retorno:
+
+        ```json
+            [{
+                "card_number": 1,
+                "id": 1
+                ...
+            }]
+        ```
+
+Se a carta não existir:
+
+    localhost:8000/cards/{id} #99 por exemplo
+        Resposta:
+
+            {
+    "detail": "Card not found"
+            }
