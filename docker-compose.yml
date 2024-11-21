@@ -8,8 +8,9 @@ services:
       - "2470:2470"
     volumes:
       - ./services:/app/services
+      - .:/app
     environment:
-      - PYTHONPATH=/app/services/cards-service/src:$PYTHONPATH
+      - PYTHONPATH=/app/backend/services/cards-service/src
       - PYTHONUNBUFFERED=1
     depends_on:
       - db
