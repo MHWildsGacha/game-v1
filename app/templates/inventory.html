@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>User Inventory</h2>
+<ul>
+    {% for card in inventory %}
+    <li>{{ card.name }} - {{ card.rarity }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

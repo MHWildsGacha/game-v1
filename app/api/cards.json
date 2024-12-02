@@ -1,0 +1,115 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "name": "Rathalos",
+        "rarity": 5,
+        "stats": {
+          "atk": 90,
+          "def": 70,
+          "agi": 50
+        },
+        "description": "O rei dos céus, conhecido por sua ferocidade e majestade."
+      },
+      {
+        "id": 2,
+        "name": "Nargacuga",
+        "rarity": 4,
+        "stats": {
+          "atk": 75,
+          "def": 60,
+          "agi": 90
+        },
+        "description": "Uma criatura ágil e furtiva, que ataca nas sombras."
+      },
+      {
+        "id": 3,
+        "name": "Kirin",
+        "rarity": 5,
+        "stats": {
+          "atk": 80,
+          "def": 50,
+          "agi": 100
+        },
+        "description": "Um cavalo mítico imbuído com o poder dos raios."
+      },
+      {
+        "id": 4,
+        "name": "Zinogre",
+        "rarity": 4,
+        "stats": {
+          "atk": 85,
+          "def": 65,
+          "agi": 70
+        },
+        "description": "Um caçador implacável que canaliza eletricidade."
+      },
+      {
+        "id": 5,
+        "name": "Lagombi",
+        "rarity": 3,
+        "stats": {
+          "atk": 50,
+          "def": 40,
+          "agi": 60
+        },
+        "description": "Um monstro ártico com garras afiadas e alta mobilidade."
+      },
+      {
+        "id": 6,
+        "name": "Barioth",
+        "rarity": 4,
+        "stats": {
+          "atk": 70,
+          "def": 55,
+          "agi": 80
+        },
+        "description": "Um predador ártico que desliza no gelo com facilidade."
+      },
+      {
+        "id": 7,
+        "name": "Anjanath",
+        "rarity": 3,
+        "stats": {
+          "atk": 65,
+          "def": 60,
+          "agi": 40
+        },
+        "description": "Uma fera agressiva com poderosas chamas."
+      },
+      {
+        "id": 8,
+        "name": "Rajang",
+        "rarity": 5,
+        "stats": {
+          "atk": 95,
+          "def": 80,
+          "agi": 85
+        },
+        "description": "Uma fera lendária conhecida por sua força devastadora."
+      },
+      {
+        "id": 9,
+        "name": "Tigrex",
+        "rarity": 4,
+        "stats": {
+          "atk": 80,
+          "def": 70,
+          "agi": 60
+        },
+        "description": "Um monstro feroz que domina terrenos difíceis."
+      },
+      {
+        "id": 10,
+        "name": "Pukei-Pukei",
+        "rarity": 3,
+        "stats": {
+          "atk": 55,
+          "def": 50,
+          "agi": 45
+        },
+        "description": "Um monstro peculiar que utiliza veneno para se defender."
+      }
+    ]
+  }
+  
